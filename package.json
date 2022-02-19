@@ -1,0 +1,24 @@
+{
+  "name": "notion-render-03",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.0.10",
+    "node-fetch": "^3.2.0",
+    "notion-api-worker": "^0.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-notion": "^0.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.16",
+    "@types/react": "^17.0.39",
+    "eslint": "8.8.0",
+    "eslint-config-next": "12.0.10"
+  }
+}
